@@ -327,7 +327,7 @@ export default function App() {
         Dashboard Center Analytics é um projeto individual do Projeto Integrador 2026/02 (UniSENAI), 
         em parceria com a Faculdade SENAI de Tecnologia Mecatrônica São Caetano do Sul, para monitorar 
         a eficiência energética, hídrica e operacional de um Data Center de IA. Os dados são sintéticos,
-        gerados para fins acadêmicos — não representam medições reais.
+        gerados para fins acadêmicos.
       </footer>
 
       <Assistant dadosDiariosDoMes={dailyRows} mesEmExibicao={mesDetalhe} />
