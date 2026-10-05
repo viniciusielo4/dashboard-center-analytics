@@ -251,7 +251,7 @@ export default function App() {
 
       <header className="topbar sub-topbar">
         <div>
-          <h1 className="small">Ciência de dados (previsões e anomalias)</h1>
+          <h1 className="small">Ciência de dados (Fase 4)</h1>
           <p>Previsões e detecção de anomalias — modelos treinados sobre o histórico, não medições diretas.</p>
         </div>
       </header>
@@ -324,11 +324,9 @@ export default function App() {
       </div>
 
       <footer>
-        Dashboard Center Analytics é um projeto individual do Projeto Integrador 2026/02 (UniSENAI), 
-        em parceria com a Faculdade SENAI de Tecnologia Mecatrônica São Caetano do Sul, para monitorar
-        a eficiência energética, hídrica e operacional de um Data Center de IA. Os dados são sintéticos,
-        gerados para fins acadêmicos.
-
+        Dataset sintético gerado para o Projeto Integrador — os valores não representam medições reais. PUE, WUE e
+        as demais fórmulas seguem as regras de negócio definidas na Fase 0 do projeto. Previsões e anomalias da
+        Fase 4 são estimativas de modelo, não medições, e dependem de validação humana (RN27/RN28).
       </footer>
 
       <Assistant dadosDiariosDoMes={dailyRows} mesEmExibicao={mesDetalhe} />
