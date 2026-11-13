@@ -1,10 +1,4 @@
-// Servidor local bem simples, só para testar a função api/assistant.js durante o
-// desenvolvimento, sem depender do "vercel dev" (que tem se mostrado instável no
-// Windows). Isso NÃO é usado no deploy - a Vercel usa api/assistant.js diretamente
-// como função serverless, sem precisar deste arquivo.
-//
-// Rode com: npm run dev:api
-// (em outro terminal, ao mesmo tempo, rode: npm run dev)
+
 const http = require("node:http");
 const handler = require("./api/assistant.js");
 
